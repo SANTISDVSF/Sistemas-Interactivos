@@ -1,6 +1,6 @@
-### Unidad 1 - Trayecto de Actividades
+## Unidad 1 - Trayecto de Actividades
 
-## Ejercicio 6 - Sistemas Interactivos (Unidad 1)
+### Ejercicio 6 - Sistemas Interactivos (Unidad 1)
 #¿Cómo se ejecuta este programa?
 
 R// 
