@@ -1,1 +1,13 @@
-### Unidad 1 - Trayecto de Actividades
+Unidad 1 - Trayecto de Actividades
+
+Ejercicio 6 - Sistemas Interactivos (Unidad 1)
+¿Cómo se ejecuta este programa?
+
+R// 
+Al comenzar, el programa se inicia en un estado llamado INIT, donde configura la comunicación serial para enviar datos y guarda el tiempo actual. Luego, pasa al estado WAIT_TIMEOUT, 
+donde espera que pase un segundo. En cada ciclo del programa (gracias a la función loop()), se verifica si ha pasado ese segundo y, cuando ocurre, envía el tiempo actual al monitor 
+serie y vuelve a empezar la espera. Este proceso se repite indefinidamente, enviando el tiempo cada segundo.
+
+
+- Pudiste ver este mensaje: Serial.print("Task1States::WAIT_TIMEOUT\n");. ¿Por qué crees que ocurre esto?
+- ¿Cuántas veces se ejecuta el código en el case Task1States::INIT?
